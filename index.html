@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema BACDJ</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .footer-images {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: right;
+      gap: 15px; /* Espacio entre las imágenes */
+      background-color: #f1f1f1; /* Fondo opcional */
+      padding: 10px 0; /* Espaciado alrededor */
+    }
+    .footer-images img {
+      height: 50px; /* Ajusta el tamaño de las imágenes */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="https://images.squarespace-cdn.com/content/v1/632e5d014b4208618bb25d51/35f6c1a4-ebe8-46d3-abc4-4256372f90a2/Logo+Web+Bacdj.jpg?format=1500w" alt="Logo" class="logo-sidebar">
+      <h2>Menú</h2>
+      <ul>
+          <li><a href="#" onclick="mostrarArchivos('supervision')">Supervisión de comunidad</a></li>
+          <li><a href="https://docs.google.com/spreadsheets/d/1SQqo_DCp5wCVMaOo-1jD7-z4OWez4VRQ-yzR-Eu01s4/edit?usp=drive_link" target="_blank">Apadrinados BACDJ</a></li>
+          <li><a href="#" onclick="mostrarArchivos('listas')">Captura de listas</a></li>
+          <li><a href="https://docs.google.com/spreadsheets/d/1NVAZ1UMH7VdjWd3HNAaccOg3F4jz76xE/edit?usp=drive_link&ouid=105011259160866655546&rtpof=true&sd=true" target="_blank">Vencidos SIGO</a></li>         
+          <li><a href="https://drive.google.com/drive/folders/1OePg62Dk0o72EFQrtjUCvkvcZMO4uIuQMems6dxgWQ9g3p9A0wNGWvrxq5siDjsY8XGlCWKb?usp=drive_link" target="_blank">FIRMAS (fotos)</a></li>
+          <li><a href="#" onclick="mostrarArchivos('fotos')">Evidencia Fotografica</a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+        <!-- Botón Regresar (inicialmente oculto) -->
+<button id="btn-regresar" class="btn-regresar" onclick="volverInicio()" style="display: none;">
+    ⬅️ Regresar
+  </button>
+  
+  <!-- Contenedor de archivos -->
+  <div id="archivos-container" class="archivos-container"></div>
+  
+  <h1 style="color: #067a34; font-family: 'Times New Roman', Times, serif; font-size: 40px;">BACDJ</h1>
+  <div class="cards">
+        <div class="card" onclick="mostrarArchivos('primera')">Primera vez</div>
+        <div class="card" onclick="mostrarArchivos('senda')">Senda de la generosidad</div>
+        <div class="card" onclick="mostrarArchivos('apertura')">Apertura de comunidad</div>
+        <div class="card" onclick="mostrarArchivos('alimento')">Alimento a granel</div>
+        <div class="card" onclick="mostrarArchivos('atencion')">Atención a comunidades</div>
+        <div class="card" onclick="mostrarArchivos('formatos')">Formatos</div>
+      </div>
+
+      <div id="archivos-container" class="archivos-container"></div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+
+  <div class="footer-images">
+    <img src="https://images.squarespace-cdn.com/content/v1/632e5d014b4208618bb25d51/04915ee2-dde4-4fe0-b4f9-307fbc7c6c95/BACDJ-Icono.png" alt=" ">
+    <img src="https://bamx.org.mx/wp-content/uploads/2023/10/RED-BAMX.png" alt=" ">
+    <img src="https://fechac.org.mx/web2/app_fechac/_repo/090210_logoapoyadopor_horizontal.png" alt=" ">
+  </div>
+</body>
+</html>
