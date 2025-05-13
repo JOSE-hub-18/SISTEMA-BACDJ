@@ -7,12 +7,13 @@
 
   <title>Acceso restringido</title>
   <script>
+  document.addEventListener("DOMContentLoaded", function () {
     const password = prompt("Introduce la Clave de Acceso:");
     if (password !== "BACDJSISTEM25") {
-      document.write("Acceso denegado.");
-      window.stop();
+      document.body.innerHTML = "<h1>Acceso denegado.</h1>";
     }
-  </script>
+  });
+</script>
 
   <style>
     .footer-images {
@@ -74,8 +75,6 @@
     <img src="https://bamx.org.mx/wp-content/uploads/2023/10/RED-BAMX.png" alt=" ">
     <img src="https://fechac.org.mx/web2/app_fechac/_repo/090210_logoapoyadopor_horizontal.png" alt=" ">
   </div>
-
-  <p>Este contenido es privado.</p>
 
 </body>
 </html>
