@@ -5,6 +5,15 @@
   <title>Sistema BACDJ</title>
   <link rel="stylesheet" href="styles.css">
 
+  <title>Acceso restringido</title>
+  <script>
+    const password = prompt("Introduce la Clave de Acceso:");
+    if (password !== "BACDJSISTEM25") {
+      document.write("Acceso denegado.");
+      window.stop();
+    }
+  </script>
+
   <style>
     .footer-images {
       position: fixed;
@@ -65,5 +74,9 @@
     <img src="https://bamx.org.mx/wp-content/uploads/2023/10/RED-BAMX.png" alt=" ">
     <img src="https://fechac.org.mx/web2/app_fechac/_repo/090210_logoapoyadopor_horizontal.png" alt=" ">
   </div>
+
+  <h1>Bienvenido al sitio</h1>
+  <p>Este contenido es privado.</p>
+
 </body>
 </html>
