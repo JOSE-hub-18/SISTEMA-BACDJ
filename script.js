@@ -9,8 +9,10 @@ const archivos = {
 
   ],
     senda: [
-      { nombre: "Manual de generosidad", link: "archivos/manual_generosidad.pdf" },
-      { nombre: "Lista de participantes", link: "archivos/participantes.xlsx" }
+      { nombre: "Recepcion SENDA DE LA GENEROSIDAD", link: "https://drive.google.com/file/d/1YHzdHmOCs9TpFc_r-yll6mtlOQDtFijl/view?usp=drive_link" },
+      { nombre: "Entrega SENDA DE LA GENEROSIDAD", link: "https://drive.google.com/file/d/1lZcW7_qdPM40uMZEzGRoZN03M6maHFDt/view?usp=drive_link" },
+      { nombre: "SENDA DE LA GENEROSIDAD", link: "https://docs.google.com/spreadsheets/d/1eku2aZ0yaFkKzRxzkOpueywlRbJxa6HE/edit?usp=drive_link&ouid=105011259160866655546&rtpof=true&sd=true"},
+      { nombre: "APADRINADOS BACDJ", link: "https://docs.google.com/spreadsheets/d/1SQqo_DCp5wCVMaOo-1jD7-z4OWez4VRQ-yzR-Eu01s4/edit?usp=drive_link"}
     ],
     apertura: [
       { nombre: "ESTUDIOS SOCIOECONOMICOS 2025", link: "https://docs.google.com/spreadsheets/d/1Xc57T6Z9U7Nxc_A6_cOPkWWoN3vKGLGsGQvKujcqCms/edit?usp=drive_link"},
