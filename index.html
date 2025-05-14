@@ -5,24 +5,15 @@
   <title>Sistema BACDJ</title>
   <link rel="stylesheet" href="styles.css">
 
-<h2>Ingresar Clave de Acceso:</h2>
-  <input type="password" id="password" placeholder="Contraseña">
-  <button onclick="verificarAcceso()">Ingresar</button>
-
+  <title>Acceso restringido</title>
   <script>
-    const contraseñasValidas = ["joseramos", "elyochoa", "gabyfierro"]; // Puedes agregar más
-
-    function verificarAcceso() {
-      const ingreso = document.getElementById("password").value;
-      if (contraseñasValidas.includes(ingreso)) {
-        alert("Acceso Valido");
-        // Aquí puedes redirigir a otra página si quieres:
-        // window.location.href = "pagina_secreta.html";
-      } else {
-        alert("Clave de Acceso Incorrecta");
-      }
+  document.addEventListener("DOMContentLoaded", function () {
+    const password = prompt("Introduce la Clave de Acceso:");
+    if (password !== "BACDJ25") {
+      document.body.innerHTML = "<h1>Acceso denegado.</h1>";
     }
-  </script>
+  });
+</script>
 
   <style>
     .footer-images {
