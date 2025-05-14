@@ -5,15 +5,24 @@
   <title>Sistema BACDJ</title>
   <link rel="stylesheet" href="styles.css">
 
-  <title>Acceso restringido</title>
+<h2>Ingresar Clave de Acceso:</h2>
+  <input type="password" id="password" placeholder="Contraseña">
+  <button onclick="verificarAcceso()">Ingresar</button>
+
   <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const password = prompt("Introduce la Clave de Acceso:");
-    if (password !== "BACDJSISTEM25") {
-      document.body.innerHTML = "<h1>Acceso denegado.</h1>";
+    const contraseñasValidas = ["joseramos", "elyochoa", "gabyfierro"]; // Puedes agregar más
+
+    function verificarAcceso() {
+      const ingreso = document.getElementById("password").value;
+      if (contraseñasValidas.includes(ingreso)) {
+        alert("Acceso Valido");
+        // Aquí puedes redirigir a otra página si quieres:
+        // window.location.href = "pagina_secreta.html";
+      } else {
+        alert("Clave de Acceso Incorrecta");
+      }
     }
-  });
-</script>
+  </script>
 
   <style>
     .footer-images {
@@ -39,10 +48,10 @@
       <ul>
           <li><a href="#" onclick="mostrarArchivos('supervision')">Supervisión de comunidad</a></li>
           <li><a href="https://docs.google.com/spreadsheets/d/1SQqo_DCp5wCVMaOo-1jD7-z4OWez4VRQ-yzR-Eu01s4/edit?usp=drive_link" target="_blank">Apadrinados BACDJ</a></li>
-          <li><a href="#" onclick="mostrarArchivos('listas')">Captura de listas</a></li>
+          <li><a href="https://sigoplus.bamx.org.mx/MiBanco/Padon/ESN/frmLAESN.aspx" target="_blank">Captura de listas</a></li>
           <li><a href="https://docs.google.com/spreadsheets/d/1NVAZ1UMH7VdjWd3HNAaccOg3F4jz76xE/edit?usp=drive_link&ouid=105011259160866655546&rtpof=true&sd=true" target="_blank">Vencidos SIGO</a></li>         
           <li><a href="https://drive.google.com/drive/folders/1OePg62Dk0o72EFQrtjUCvkvcZMO4uIuQMems6dxgWQ9g3p9A0wNGWvrxq5siDjsY8XGlCWKb?usp=drive_link" target="_blank">FIRMAS (fotos)</a></li>
-          <li><a href="#" onclick="mostrarArchivos('fotos')">Evidencia Fotografica</a></li>
+          <li><a href="#" target="_blank">Evidencia Fotografica</a></li>
         </ul>
     </aside>
 
