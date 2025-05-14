@@ -19,8 +19,6 @@ const archivos = {
     ],
     alimento: [
       { nombre: "Comites", link: "https://docs.google.com/spreadsheets/d/1zLR9wWx9nxK2TBJlrm81Pl1_7d6LCsZns0oTFQN5mMY/edit?usp=drive_link" },
-      { nombre: "INSTITUCIONES/COMEDORES/RELIGIOSAS", link: "https://docs.google.com/spreadsheets/d/1N89_ioh1SHMZsFq7ec4D0rY21Qy_h6GbAoF534DDJzY/edit?usp=drive_link" },
-      { nombre: "INSTITUCIONES/ALBERGUES", link: "https://docs.google.com/spreadsheets/d/133rhGFC8p3Zu8OM6R7EeOrxy2_Eti0nr3t349qTKXyo/edit?usp=drive_link"},
       { nombre: "Actualizacion de Comites", link: "https://docs.google.com/spreadsheets/d/1197rpkD8sMRYRb9Xq-IzcdlPeBEwuOyM/edit?usp=drive_link&ouid=105011259160866655546&rtpof=true&sd=true"},
       {nombre: "BACDJ-TS002-A Producto a granel", link: "https://drive.google.com/file/d/1ay0_XihQ6fR-vLOt08xvd1hb1H9hdg8y/view?usp=drive_link" },
 
@@ -40,7 +38,6 @@ const archivos = {
       {nombre: "BACDJ-TS002-A Producto a granel", link: "https://drive.google.com/file/d/1ay0_XihQ6fR-vLOt08xvd1hb1H9hdg8y/view?usp=drive_link" },
       {nombre: "BACDJ-TS003-A Recepción comunidad No. cliente", link: "https://drive.google.com/file/d/11bq9ZYVlnl3nRGT062KNPdeAO-vRCRn1/view?usp=drive_link" },
       {nombre: "BACDJ-TS004-A Minuta", link: "https://drive.google.com/file/d/1t2SxF7FbBblR17xnN3BhPH7y11qirKOV/view?usp=drive_link" },
-      {nombre: "BACDJ-TS005-A Recepción directos", link: "https://drive.google.com/file/d/10xkc_a1QHPnXZyZ0hbcVqWYoib-VpW0N/view?usp=drive_link" },
       {nombre: "BACDJ-TS006-A Reglamento y carta compromiso 2025", link: "https://drive.google.com/file/d/1nLNxXqW2Y3d3_-QT89vQApL-TD-vHNBu/view?usp=drive_link" },
       {nombre: "BACDJ-TS007-A Supervision por llamada", link: "https://drive.google.com/file/d/106IObH5FJGZ4YzxtV_e8Vf4HGm6s3w7_/view?usp=drive_link" },
       {nombre: "BACDJ-TS008-A Uso de imagen", link: "https://drive.google.com/file/d/1FBKvXSm6jABh5r6vKfVKAkwvVOTFiTXa/view?usp=drive_link" },
