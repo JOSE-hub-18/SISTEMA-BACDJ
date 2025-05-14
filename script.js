@@ -46,6 +46,14 @@ const archivos = {
       {nombre: "BACDJ-TS008-A Uso de imagen", link: "https://drive.google.com/file/d/1FBKvXSm6jABh5r6vKfVKAkwvVOTFiTXa/view?usp=drive_link" },
       {nombre: "BACDJ-TS009-A Formato Socionutricio", link: "https://drive.google.com/file/d/1DBH1Ji6eX0lnXo_LkNJDw_lclhpJHBUB/view?usp=drive_link" },
       {nombre: "BACDJ-TS010-A Formato_Institucion 2022", link: "https://drive.google.com/file/d/1GJinGOjyit970kF3DTuiOzDBm2Vbj3b6/view?usp=drive_link" },
+    ],
+
+    fotos: [
+      { nombre: "Evidencia Fotografica PRIMERA VEZ", link: "https://drive.google.com/drive/folders/1OePg62Dk0o72EFQrtjUCvkvcZMO4uIuQMems6dxgWQ9g3p9A0wNGWvrxq5siDjsY8XGlCWKb?usp=drive_link"},
+      { nombre: "Evidencia Fotografica SENDA DE LA GENEROSIDAD", link: ""},
+      { nombre: "Evidencia Fotografica APERTURA DE COMUNIDAD", link: ""},
+      { nombre: "Evidencia Fotografica ALIMENTO A GRANEL", link: ""},
+      { nombre: "Evidencia Fotografica ATENCION A COMUNIDADES", link: ""},
     ]
   };
   
@@ -89,6 +97,7 @@ const archivos = {
       case 'alimento': return 'Alimento a granel';
       case 'atencion': return 'Atención a comunidades';
       case 'formatos': return 'Formatos';
+      case 'fotos': return 'Evidencia Fotografica';
       default: return '';
     }
   }
