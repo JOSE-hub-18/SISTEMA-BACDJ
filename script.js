@@ -51,6 +51,10 @@ const archivos = {
       { nombre: "Evidencia Fotografica APERTURA DE COMUNIDAD", link: ""},
       { nombre: "Evidencia Fotografica ALIMENTO A GRANEL", link: ""},
       { nombre: "Evidencia Fotografica ATENCION A COMUNIDADES", link: ""},
+    ],
+
+    resultados: [
+      { nombre: "Resultados", link: "https://docs.google.com/spreadsheets/d/1VLnagu4PNCRVKmX9bt3wYX0RUifRVRGZtSBs_r_yEIc/edit?gid=0#gid=0"}
     ]
   };
   
